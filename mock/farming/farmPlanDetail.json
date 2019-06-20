@@ -1,0 +1,170 @@
+{
+  "success": true,
+  "msg": "success",
+  "data": {
+    "detail1": {
+      "num": "00001",
+      "cropName": "甜瓜",
+      "planName": "甜瓜方案1",
+      "baseLand": "基地1",
+      "land": "[6号大朋]",
+      "beginDate": "2018-08-05"
+    },
+    "detail": [
+      {
+        "num": "00001"
+      },
+      {
+        "cropName": "甜瓜"
+      },
+      {
+        "planName": "甜瓜方案1"
+      },
+      {
+        "baseLand": "基地1"
+      },
+      {
+        "land": "[6号大朋]"
+      },
+      {
+        "beginDate": "2018-08-05"
+      }
+    ],
+    "taskList": [
+      {
+        "id": "1",
+        "task": 1,
+        "taskType": 2,
+        "land": 3,
+        "beginTime": "1972-01-04",
+        "period": 2,
+        "ruralCapital": "wqdgt",
+        "useLevel": 1,
+        "inhibitoryStage": 3,
+        "purpose": "shfppxn",
+        "director": "锺刚",
+        "status": 1,
+        "realNum": 2,
+        "key": 1
+      },
+      {
+        "id": "2",
+        "task": 1,
+        "taskType": 2,
+        "land": 6,
+        "beginTime": "1981-01-05",
+        "period": 1,
+        "ruralCapital": "pyhl",
+        "useLevel": 4,
+        "inhibitoryStage": 8,
+        "purpose": "plfmaqz",
+        "director": "徐强",
+        "status": 2,
+        "realNum": 2,
+        "key": 2
+      }
+    ],
+    "temporaryTaskList": [
+      {
+        "key": 1,
+        "id": "510000199106233453",
+        "task": 1,
+        "taskType": 2,
+        "land": 3,
+        "beginTime": "1972-01-04",
+        "period": 2,
+        "ruralCapital": "wqdgt",
+        "useLevel": 1,
+        "inhibitoryStage": 3,
+        "purpose": "shfppxn",
+        "director": "锺刚",
+        "status": 1,
+        "realNum": 2,
+        "create": "刚"
+      },
+      {
+        "key": 2,
+        "id": "430000200411218888",
+        "task": 1,
+        "taskType": 2,
+        "land": 6,
+        "beginTime": "1981-01-05",
+        "period": 1,
+        "ruralCapital": "pyhl",
+        "useLevel": 4,
+        "inhibitoryStage": 8,
+        "purpose": "plfmaqz",
+        "director": "徐强",
+        "status": 2,
+        "realNum": 2,
+        "create": "强"
+      }
+    ],
+    "receiveList": [
+      {
+        "key": 1,
+        "id": "420000198308025744",
+        "time": "1972-01-04",
+        "batch": 6,
+        "cropVariety": "jquuqsn",
+        "num": 2,
+        "unit": 2,
+        "recoveryLand": 5,
+        "director": "贺勇"
+      },
+      {
+        "key": 2,
+        "id": "610000197201025825",
+        "time": "1985-03-17",
+        "batch": 4,
+        "cropVariety": "ynhwnf",
+        "num": 3,
+        "unit": 2,
+        "recoveryLand": 3,
+        "director": "金平"
+      },
+      {
+        "key": 3,
+        "id": "990000197504188440",
+        "time": "2016-04-28",
+        "batch": 3,
+        "cropVariety": "ttkixdbkwy",
+        "num": 5,
+        "unit": 2,
+        "recoveryLand": 4,
+        "director": "魏秀兰"
+      },
+      {
+        "key": 4,
+        "id": "820000199001193734",
+        "batch": 4,
+        "cropVariety": "vtpveili",
+        "num": 3,
+        "beginTime": "1973-06-20",
+        "unit": 2,
+        "recoveryLand": 2,
+        "director": "侯磊"
+      }
+    ],
+    "photoList": [
+      {
+        "id": 1,
+        "key": 1,
+        "url": "https://gw.alipayobjects.com/zos/rmsportal/slVtnOCcgeAcLEPwtewY.svg",
+        "tip": "备注1"
+      },
+      {
+        "id": 2,
+        "key": 2,
+        "url": "https://gw.alipayobjects.com/zos/rmsportal/slVtnOCcgeAcLEPwtewY.svg",
+        "tip": "备注2"
+      },
+      {
+        "id": 3,
+        "key": 3,
+        "url": "https://gw.alipayobjects.com/zos/rmsportal/slVtnOCcgeAcLEPwtewY.svg",
+        "tip": "备注3"
+      }
+    ]
+  }
+}

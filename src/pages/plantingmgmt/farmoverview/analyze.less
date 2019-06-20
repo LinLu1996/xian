@@ -1,0 +1,181 @@
+.farming-box {
+  .card-four{
+    border-radius: 4px;
+    background: #fff;
+    margin-bottom: 20px;
+    .ant-row {
+      margin-bottom: 0px;
+      //农事分析的四块
+      .ant-col-6 {
+        .number-card {
+          background: none;
+          cursor: pointer;
+          text-align: center;
+          //border-right: 1px solid #ccc;
+          //border-radius: 10px;
+          .ant-card-body{
+            height: 110px;
+            .border-right{
+              width: 2px;
+              height: 75%;
+              background: #ccc;
+              position: relative;
+              top: -85%;
+              left: 100%;
+            }
+            .border-bottom{
+              width: 90%;
+              height: 2px;
+              background: #9cd0a0;
+              position: relative;
+              top: -78%;
+              left: 5%;
+            }
+          }
+          p {
+            margin: 0
+          }
+          .icon-warp {
+            display: inline-block;
+            vertical-align: top;
+            width: 20%;
+            font-size: 40px;
+            color: #9cd0a0;
+            padding: 20px 0;
+          }
+          .content-analyze {
+            box-sizing: border-box;
+            width: 80%;
+            display: inline-block;
+            padding: 20px;
+            text-align: left;
+            .item {
+              display: inline-block;
+              width: 50%;
+              .title-analyze {
+                font-size: 18px;
+                margin-bottom: 10px;
+              }
+              .unit {
+                font-size: 12px;
+                padding-left: 2px;
+                color: #999;
+              }
+              .number {
+                font-size: 22px;
+                color: #9cd0a0;
+              }
+            }
+          }
+        }
+        &:last-child {
+          .number-card {
+            border: none;
+          }
+        }
+      }
+    }
+  }
+
+  .analyze-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    margin: 20px 0;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      background: #fff;
+      border: 1px solid #eee;
+      margin: 0;
+      li {
+        flex: 1;
+        height: 44px;
+        line-height: 44px;
+        padding: 12px 0;
+        text-align: center;
+        color: #666;
+        box-sizing: border-box;
+        &:last-child {
+          span {
+            border: none;
+          }
+        }
+        span {
+          display: block;
+          width: 100%;
+          box-sizing: border-box;
+          line-height: 20px;
+          border-right: 1px solid #ccc;
+        }
+      }
+      .active-nav {
+        color: #9cd0a0;
+        border-bottom: 2px solid #9cd0a0;
+      }
+    }
+  }
+  //图表
+  .analyze-chart {
+    width: 100%;
+    .ant-card-body{
+      padding: 24px 0;
+    }
+    .table-header {
+      width: 100%;
+      height: 80px;
+      background: #f5f9fa;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+      p:nth-child(1) {
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        i {
+          font-size: 20px;
+          color: #8786ce;
+        }
+        span {
+          font-size: 20px;
+          color: #8786ce;
+          margin-left: 5px;
+        }
+      }
+      p:nth-child(2) {
+        padding-right: 20px;
+        margin: 0;
+        .ant-btn {
+          background: #9cd0a0;
+          height: 40px;
+          color: #fff;
+          border: none;
+        }
+        .ant-btn:hover{
+          background: #6bab95;
+        }
+      }
+    }
+    .btn-common {
+      width: 120px;
+      float: right;
+      margin: 0 10px;
+    }
+  }
+  .white-card{
+    background: #f5f9fa !important;
+    border-radius: 4px;
+  }
+}
+.farmover-search-layout{
+  width: 100% !important;
+}
+.farmover-content{
+  background: #f5f9fa !important;
+  min-height: calc(100% - 830px) !important;
+}

@@ -1,0 +1,846 @@
+
+.system .conentBox{
+  .ant-table{
+    font-size: 12px;
+  }
+  .farming-box {
+    width: calc(100%);
+    height: 100%;
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    .farming-search {
+      width: 100%;
+      padding: 10px 0;
+      background: #fff;
+      margin-bottom: 20px;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      .farming-title {
+        display: flex;
+        padding: 0 20px;
+        justify-content: space-between;
+        .title {
+          min-width: 172px;
+          padding: 5px 0;
+          font-size: 24px;
+          color: #333333;
+        }
+      }
+      .search-layout {
+        width: calc(100% - 170px);
+        border-radius: 5px;
+        background: #fff;
+        .search-row {
+          width: 100%;
+          height: 46px;
+          display: flex;
+          align-items: center;
+          .search-col {
+            width:25%;
+            .choose-input {
+              width:100%;
+            }
+            .ant-select .ant-select-selection{
+              margin-left: 10px;
+            }
+            flex: 1;
+            display: flex;
+            align-items: center;
+            &::before {
+              content: '';
+              height: 20px;
+              border-left: 1px solid #ccc;
+            }
+            &:first-child::before {
+              content: '';
+              height: 20px;
+              border-left: 1px solid transparent;
+            }
+            .label-title {
+              width: 100px;
+              display: inline-block;
+              text-align: right;
+              padding-right: 12px;
+              color: #8b8b8b;
+            }
+            .choose-input{
+              margin-left: -34px;
+              width: 200%;
+              .query{
+                width: 100%;
+              }
+            }
+            input {
+              flex: 1;
+              -webkit-box-shadow: 0 0 0 0px rgba(255, 255, 255, 255) !important;
+              box-shadow: 0 0 0 0px #ffffff !important;
+              border: none;
+              text-indent: 10px;
+              width:auto;
+              margin:0;
+            }
+            .ant-input {
+              margin:0;
+            }
+            .ant-select {
+              flex: 1;
+              .ant-select-selection {
+                -webkit-box-shadow: 0 0 0 0px rgba(255, 255, 255, 255) !important;
+                box-shadow: 0 0 0 0px #ffffff !important;
+                border: none;
+              }
+            }
+            .ant-btn {
+              width: 25%;
+              height: 45px;
+              background: #9cd0a0;
+              border: none;
+            }
+          }
+        }
+      }
+    }
+  }
+  .form-layout {
+    .form-title {
+      font-size: 16px;
+      color: #8583cc;
+      margin-left: 5px;
+      padding: 15px 0;
+      i {
+        font-size: 16px;
+        color: #8583cc;
+        margin-right: 5px;
+      }
+    }
+    .form-row {
+      width: 100%;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+      .form-col {
+        width: 31%;
+        display: flex;
+        align-items: center;
+        background: #fff;
+        margin-right: 2.3333%;
+        &:last-child {
+          margin-right: 0;
+        }
+        .label-title {
+          width: 25%;
+          display: inline-block;
+          text-align: center;
+
+        }
+        input {
+          flex: 1;
+          height: 32px;
+          -webkit-box-shadow: 0 0 0 0px rgba(255, 255, 255, 255) !important;
+          box-shadow: 0 0 0 0px #ffffff !important;
+          border: none;
+        }
+        .form-view {
+          flex: 1;
+          height: 32px;
+          line-height: 32px;
+          -webkit-box-shadow: 0 0 0 0px rgba(255, 255, 255, 255) !important;
+          box-shadow: 0 0 0 0px #ffffff !important;
+          border: none;
+        }
+        .ant-select {
+          flex: 1;
+          .ant-select-selection {
+            -webkit-box-shadow: 0 0 0 0px rgba(255, 255, 255, 255) !important;
+            box-shadow: 0 0 0 0px #ffffff !important;
+            border: none;
+          }
+        }
+      }
+    }
+    .form-btn {
+      background: #9cd0a0;
+      color: #fff;
+      border: none;
+    }
+    .form-btn:hover, .form-btn:focus {
+      background: #9cd0a0;
+      color: #fff;
+      border: none;
+    }
+
+  }
+  .ant-switch-checked {
+    background-color: #9cd0a0;
+  }
+  .ant-table table {
+    background-color: #fff;
+    border-radius: 0;
+  }
+  .search-row > .search-col {
+    &:before {
+      border: none !important;
+    }
+    .label-title {
+      font-size: 14px !important;
+      min-width: 72px !important;
+    }
+    .ant-input {
+      border: 1px solid #ccc !important;
+      height: 35px !important;
+      margin-right: 10px !important;
+    }
+    .ant-select-selection {
+      border: 1px solid #ccc !important;
+      height: 35px !important;
+      margin-right: 10px !important;
+    }
+  }
+  .download-icon {
+    margin-left: 11px;
+  }
+}
+.ant-calendar-tbody{
+  .ant-calendar-disabled-cell{
+    .ant-calendar-date {
+      color: #bcbcbc !important;
+      background: #f5f5f5 !important;
+      border: 1px solid transparent !important;
+    }
+  }
+}
+
+.ant-select-dropdown {
+  .ant-select-dropdown-menu-item{
+    text-overflow: unset;
+  }
+}
+
+.farming-admin-modal {
+  .ant-modal-title {
+    color: #9cd0a0;
+  }
+  .ant-modal-body {
+    padding: 24px;
+    margin-bottom: 10px;
+    //弹出框中的表格
+    .ant-table-wrapper {
+      table {
+        thead {
+          tr {
+            background: #fff;
+            font-size: 14px;
+            th {
+              font-size: 14px;
+              text-align: center !important;
+              font-weight: bolder;
+            }
+          }
+        }
+        tbody {
+          .cursor:hover {
+            cursor: pointer;
+            background: #9cd0a0;
+            color: #fff;
+          }
+          .cursor {
+            width: 26px;
+            height: 26px;
+            border: 1px solid #9cd0a0;
+            border-radius: 50%;
+            display: inline-block;
+            color: #9cd0a0;
+            text-align: center;
+            line-height: 26px;
+            margin: 0 4px;
+          }
+          tr:nth-of-type(odd) {
+            background: #f8f9fb;
+            td {
+              text-align: center;
+              padding: 11px 6px;
+            }
+          }
+          tr:nth-of-type(even) {
+            background: #fff;
+            td {
+              text-align: center;
+              padding: 11px 6px;
+            }
+          }
+          Button {
+            background-color: #6bab95 !important;
+          }
+        }
+      }
+    }
+    //弹出框中的表单
+    .ant-form {
+      .ant-row {
+        width: 100%;
+        height: 50px;
+        margin-bottom: 8px;
+        .ant-form-item-label {
+          width: 22%;
+        }
+        .ant-form-item-control-wrapper {
+          width: 78%;
+          .ant-form-item-control {
+            .ant-form-item-children {
+              input {
+                outline: none;
+                width: 300px !important;
+                height: 35px !important;
+                -webkit-box-shadow: 0 0 0 0px rgba(255, 255, 255, 255) !important;
+                box-shadow: 0 0 0 0px #ffffff !important;
+              }
+              button {
+                margin-left: 100px;
+                background: #9cd0a0;
+                color: #fff;
+                border: none;
+              }
+              .ant-input-number {
+                width: 300px !important;
+              }
+              //选择框
+              .ant-select {
+                width: 300px;
+              }
+              //多行输入框
+              .modal-area {
+                width: 300px;
+              }
+            }
+          }
+        }
+      }
+      .res-table{
+        margin-top: 10px;
+      }
+    }
+    p {
+      width: 100%;
+      height: 45px;
+      display: flex;
+      align-items: center;
+      span {
+        width: 15%;
+      }
+      input {
+        width: 80%;
+      }
+    }
+    .ant-radio-group {
+      height: 30px;
+    }
+    .addP {
+      width: 100%;
+      span {
+        height: 40px;
+        width: 85px;
+        display: inline-block;
+        line-height: 40px;
+        margin-left: 10px;
+      }
+      input {
+        width: 300px;
+        height: 39px;
+        background: #eee;
+      }
+    }
+
+  }
+  .ant-confirm-btns {
+    button:nth-child(1):hover {
+      border-color: #9cd0a0;
+      color: #9cd0a0
+    }
+    button:nth-child(2) {
+      border-color: #9cd0a0;
+      color: #ffffff;
+      background: #9cd0a0;
+    }
+  }
+}
+.content {
+  width: 100%;
+  min-height: calc(100% - 86px);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  .ant-btn {
+    min-width: 140px;
+    background: #9cd0a0;
+    color: #fff;
+    border: none;
+    letter-spacing: 2px;
+    height: 40px;
+  }
+  .red-btn {
+    color: rgba(0, 0, 0, 0.65)!important;
+    background: #fff!important;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    -moz-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+  }
+  button:hover {
+    color: #fff !important;
+    background: #6bab95 !important;
+  }
+  .table-header {
+    width: 100%;
+    height: 80px;
+    background: #f5f9fa;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p:nth-child(1) {
+      padding-left: 20px;
+      display: flex;
+      align-items: center;
+      margin: 0;
+      i {
+        font-size: 20px;
+        color: #8786ce;
+      }
+      span {
+        font-size: 20px;
+        color: #8786ce;
+        margin-left: 5px;
+      }
+    }
+    p:nth-child(2) {
+      padding-right: 20px;
+      margin: 0;
+    }
+  }
+  .res-table {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    overflow-y: hidden;
+    position: relative;
+    .ant-table-wrapper {
+      table {
+        table-layout: fixed;
+        td{
+          white-space: nowrap;
+          height: 30px;
+          line-height: 30px;
+        }
+        td >div{
+          line-height: 100%;
+        }
+        thead {
+          tr {
+            background: #fff;
+            font-size: 14px;
+            .ant-table-expand-icon-th {
+              width: 60px;
+            }
+            .ant-table-selection-column{
+              width: 80px;
+            }
+            th {
+              text-align: center !important;
+              font-weight: bolder;
+              width: 100%;
+              word-break: keep-all; /* 不换行 */
+              white-space: nowrap; /* 不换行 */
+              //overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+              //text-overflow: ellipsis; /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+            }
+          }
+        }
+        tbody {
+          .cursor a{
+            color: #9cd0a0;
+          }
+          .cursor:hover {
+            cursor: pointer;
+            background: #9cd0a0;
+            color: #fff;
+          }
+          .cursor {
+            width: 26px;
+            height: 26px;
+            border: 1px solid #9cd0a0;
+            border-radius: 50%;
+            display: inline-block;
+            color: #9cd0a0;
+            text-align: center;
+            line-height: 26px;
+          }
+          .iconfont{
+            font-size: 17px;
+          }
+          .cursor-disabled {
+            width: 26px;
+            height: 26px;
+            border: 1px solid #cccccc;
+            border-radius: 50%;
+            display: inline-block;
+            color: #cccccc;
+            text-align: center;
+            line-height: 26px;
+            cursor: pointer;
+            margin: 0 4px;
+          }
+          //表格中的表格
+          .ant-table-expanded-row {
+            td:hover{
+              background: #9cd0a0;
+              color: #fff;
+              .ant-switch-checked{
+                background-color: #9cd0a0;
+              }
+              .ant-switch:before, .ant-switch:after{
+                background-color: #fff;
+              }
+            }
+            .ant-table-wrapper {
+              width: auto;
+              margin: 0 auto;
+            }
+          }
+          tr:nth-of-type(odd) {
+            background: #f8f9fb;
+            td {
+              text-align: center;
+              padding: 11px 6px;
+              width: 100%;
+              word-break: keep-all; /* 不换行 */
+              white-space: nowrap; /* 不换行 */
+              overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+              text-overflow: ellipsis; /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+            }
+          }
+          tr:nth-of-type(even) {
+            background: #fff;
+            td {
+              text-align: center;
+              padding: 11px 6px;
+              width: 100%;
+              word-break: keep-all; /* 不换行 */
+              white-space: nowrap; /* 不换行 */
+              overflow: hidden; /* 内容超出宽度时隐藏超出部分的内容 */
+              text-overflow: ellipsis; /* 当对象内文本溢出时显示省略标记(...) ；需与overflow:hidden;一起使用。*/
+            }
+          }
+          tr:hover{
+            td{
+              background: #9cd0a0;
+              color: #fff;
+            }
+            .ant-table-row-expand-icon{
+              color: #000;
+            }
+            .cursor {
+              border: 1px solid #fff;
+              border-radius: 50%;
+              display: inline-block;
+              color: #9cd0a0;
+              background: #fff;
+              text-align: center;
+            }
+            .ant-switch-checked{
+              background-color: #fff;
+            }
+            .ant-switch:before, .ant-switch:after{
+              background-color: #9cd0a0;
+            }
+          }
+          .ant-table-expanded-row:hover{
+            td{
+              background: #fff;
+              color: #000;
+            }
+            .cursor {
+              border: 1px solid #9cd0a0;
+              border-radius: 50%;
+              display: inline-block;
+              color: #9cd0a0;
+              background: #fff;
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+  }
+  .two-table{
+    .ant-table-wrapper{
+      table{
+        min-width: 600px;
+        td >div{
+          line-height: 100%;
+        }
+      }
+    }
+  }
+  .batch-table{
+    .ant-table-wrapper{
+      table{
+        //min-width: 1300px;
+        td >div{
+          line-height: 100%;
+        }
+      }
+    }
+  }
+  .res-pagination {
+    width: 100%;
+    //height: 60px;
+    background: #f8f9fb;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 0 0 4px 4px;
+    li {
+      a {
+        border: none;
+        background: #f8f9fb;
+      }
+    }
+    .ant-pagination-item {
+      border: none;
+      background: #f8f9fb;
+    }
+    .ant-pagination-item:hover a{
+      color: #9cd0a0;
+    }
+    .ant-pagination-next:hover a{
+      color: #9cd0a0;
+    }
+    .ant-pagination-prev:hover a{
+      color: #9cd0a0;
+    }
+    .ant-pagination-item-active:hover a{
+      color: #fff;
+    }
+    .ant-pagination-item-active {
+      width: 30px;
+      height: 30px;
+      background: #9cd0a0;
+      border-radius: 50%;
+      a {
+        border: none;
+        background: none;
+        color: #fff;
+      }
+    }
+  }
+}
+//弹出框脚部
+.ant-modal-footer {
+  //取消按钮
+  .ant-btn {
+    color: #222222 !important;
+    border: 1px solid #9cd0a0 !important;
+  }
+  //确认按钮
+  .ant-btn-primary {
+    background: #9cd0a0 !important;
+    color: #fff !important;
+    border: none !important;
+  }
+  //弹出框脚部按钮悬浮样式
+  button:hover {
+    color: #fff !important;
+    background: #6bab95 !important;
+  }
+  button:visited {
+    color: #fff !important;
+    background: #6bab95 !important;
+  }
+  button::selection{
+    background: #6bab95;
+  }
+}
+//系统管理弹出框脚部
+.system-modal-footer{
+  text-align: right;
+  margin-top: 20px;
+  button:nth-child(1){
+    margin-right: 8px;
+  }
+  //取消按钮
+  .ant-btn {
+    color: #222222 !important;
+    background: #fff !important;
+    border: 1px solid #9cd0a0 !important;
+    height: 32px;
+  }
+  //确认按钮
+  .ant-btn-primary {
+    background: #9cd0a0 !important;
+    color: #fff !important;
+    border: none !important;
+  }
+  //弹出框脚部按钮悬浮样式
+  button:hover {
+    color: #fff !important;
+    background: #6bab95 !important;
+  }
+  button:visited {
+    color: #fff !important;
+    background: #6bab95 !important;
+  }
+  button::selection{
+    background: #6bab95;
+  }
+}
+//删除、确认、详情弹出框
+.ant-confirm {
+  .ant-confirm-body {
+    //图标颜色
+    .action {
+      color: #9cd0a0;
+    }
+  }
+  .ant-confirm-btns {
+    //取消按钮
+    .ant-btn {
+      color: #222222;
+      letter-spacing: 2px;
+    }
+    //确认按钮
+    .ant-btn-primary {
+      background: #9cd0a0;
+      color: #fff;
+      border: none;
+    }
+    //弹出框脚部按钮悬浮样式
+    button:hover {
+      color: #fff;
+      background: #6bab95 !important;
+    }
+  }
+}
+
+//图标样式
+.ant-table-tbody {
+  .cursor:hover {
+    cursor: pointer;
+    background: #9cd0a0;
+    color: #fff;
+  }
+  .cursor {
+    width: 26px;
+    height: 26px;
+    border: 1px solid #9cd0a0;
+    border-radius: 50%;
+    display: inline-block;
+    color: #9cd0a0;
+    text-align: center;
+    line-height: 26px;
+    margin: 0 4px;
+  }
+  .iconfont{
+    font-size: 17px;
+  }
+}
+
+.ant-btn:focus{
+  color: #fff!important;
+  background: #9cd0a0!important;
+}
+
+//数字输入框居右
+.ant-input-number-input{
+  padding-right: 25px !important;
+  text-align: right !important;
+}
+
+.allinfobox-j{
+  .system-modal-footer{
+    .ant-btn{
+      min-width: auto;
+    }
+  }
+}
+.res-table .ant-checkbox-indeterminate .ant-checkbox-inner:after{
+  background-color: #9cd0a0;
+}
+.res-table .ant-checkbox-checked .ant-checkbox-inner{
+  background-color: #9cd0a0;
+  border-color: #9cd0a0;
+}
+.res-table .ant-checkbox:hover{
+  background-color: #9cd0a0;
+  border-color: #9cd0a0!important;
+}
+.res-table .ant-checkbox-wrapper .ant-checkbox-inner{
+  border: 1px solid #ccc!important;
+}
+// 表格头部之上
+.farming-table-header{
+  background-color: #dceaed;
+  .table-header-analysis {
+    width: 55%;
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-left: 20px;
+    span {
+      flex: 1;
+      display: inline-block;
+      height: 40px;
+      line-height: 40px;
+      border: none;
+      text-align: center;
+      font-size: 16px;
+      color: #000;
+      margin-right: 20px;
+      background-color: #fff;
+      cursor: pointer;
+    }
+    .checked {
+      color: #fff;
+      background: #9cd0a0;
+    }
+  }
+}
+
+.ant-select-selection{
+  border: 1px solid #ccc !important;
+  -webkit-box-shadow: 0 0 0 0px rgba(255, 255, 255, 255) !important;
+  box-shadow: 0 0 0 0px #ffffff !important;
+}
+.ant-radio-checked .ant-radio-inner{
+  border-color: #9cd0a0!important;
+}
+.ant-radio-inner:after{
+  background-color: #9cd0a0!important;
+}
+.ant-radio:hover .ant-radio-inner{
+  border-color: #9cd0a0!important;
+}
+.ant-table-bordered.ant-table-empty .ant-table-placeholder{
+  border: none!important;
+}
+.ant-modal-wrap {
+  .ant-modal-confirm-btns {
+    button:nth-child(1){
+      border:1px solid #9cd0a0;
+    }
+    button:hover {
+      background:#6bab95!important;
+      color:#ffffff;
+    }
+    button:nth-child(2){
+      border:none;
+    }
+  }
+}
+
+
+

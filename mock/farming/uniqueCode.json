@@ -1,0 +1,49 @@
+{
+  "success": true,
+  "msg": "success",
+  "total":100,
+  "data": [
+    {"id":"1",
+      "batch": 1100,
+      "crops": "公斤",
+      "grade": 330,
+      "createTime": 330,
+      "createName": 330,
+      "print": 330,
+      "scanning": 330
+    },
+    {"id":"2",
+      "batch": 1100,
+      "crops": "公斤",
+      "grade": 330,
+      "createTime": 330,
+      "createName": 330,
+      "print": 330,
+      "scanning": 330
+    },{"id":"3",
+      "batch": 1100,
+      "crops": "公斤",
+      "grade": 330,
+      "createTime": 330,
+      "createName": 330,
+      "print": 330,
+      "scanning": 330
+    },{"id":"4",
+      "batch": 1100,
+      "crops": "公斤",
+      "grade": 330,
+      "createTime": 330,
+      "createName": 330,
+      "print": 330,
+      "scanning": 330
+    },{"id":"5",
+      "batch": 1100,
+      "crops": "公斤",
+      "grade": 330,
+      "createTime": 330,
+      "createName": 330,
+      "print": 330,
+      "scanning": 330
+    }
+    ]
+}

@@ -1,0 +1,105 @@
+{
+  "success": true,
+  "msg": "success",
+  "total": 6,
+  "data": {
+    "list1": [
+      {
+        "key": "1",
+        "landName": "A1",
+        "num": "56.120",
+        "percent": "10"
+      },
+      {
+        "key": "2",
+        "landName": "A2",
+        "num": "56.120",
+        "percent": "10.5"
+      },
+      {
+        "key": "3",
+        "landName": "A3",
+        "num": "56.120",
+        "percent": "60"
+      },
+      {
+        "key": "4",
+        "landName": "A4",
+        "num": "56.120",
+        "percent": "100"
+      }
+    ],
+    "list2": [
+      {
+        "key": "1",
+        "crops": "甜瓜",
+        "num": "56.120",
+        "percent": "40"
+      },
+      {
+        "key": "2",
+        "crops": "甜瓜",
+        "num": "56.120",
+        "percent": "69"
+      },
+      {
+        "key": "3",
+        "crops": "甜瓜",
+        "num": "56.120",
+        "percent": "10"
+      },
+      {
+        "key": "4",
+        "crops": "A4",
+        "num": "56.120",
+        "percent": "20"
+      }
+    ],
+    "list3": [
+      {
+        "cropId": 1,
+        "cropName": "使用中",
+        "cropYield": 50
+      },
+      {
+        "cropId": 3,
+        "cropName": "闲置中",
+        "cropYield": 50
+      }
+    ],
+    "list4": [
+      {
+        "cropId": 1,
+        "cropName": "甜瓜",
+        "cropYield": 31078
+      },
+      {
+        "cropId": 3,
+        "cropName": "西瓜",
+        "cropYield": 224646
+      },
+      {
+        "cropId": 2,
+        "cropName": "蔬菜",
+        "cropYield": 232333
+      }
+    ],
+    "list5": [
+      {
+        "cropId": 1,
+        "cropName": "脆梨",
+        "cropYield": 34344
+      },
+      {
+        "cropId": 2,
+        "cropName": "白菜",
+        "cropYield": 55555
+      },
+      {
+        "cropId": 3,
+        "cropName": "测试",
+        "cropYield": 9670
+      }
+    ]
+  }
+}

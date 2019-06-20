@@ -1,0 +1,64 @@
+@box-height:350px;
+.transfer-tree {
+  background: #ffffff;
+  width: 600px;
+  display: flex;
+  padding: 20px;
+  overflow: hidden;
+  justify-content: space-between;
+  .ant-checkbox-checked .ant-checkbox-inner{
+    background: #9cd0a0;
+    border-color: #9cd0a0;
+  }
+  .transfer-tree-left {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    height: @box-height;
+    width: 240px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+
+  }
+  .transfer-tree-center {
+    display: inherit;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    height: @box-height;
+    a {
+      width: 36px;
+      height: 36px;
+      border: 1px solid #cccccc;
+      display: inline-block;
+      text-align: center;
+      line-height: 34px;
+      margin: 10px 0;
+      font-size: 18px;
+    }
+  }
+  .transfer-tree-right {
+    padding: 10px;
+    border: 1px solid #cccccc;
+    height: @box-height;
+    width: 240px;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    .ant-checkbox-group-item {
+      width: 100%;
+      display: block;
+
+    }
+  }
+  .ant-input-search {
+    margin-bottom: 8px;
+  }
+  .tree-data {
+    flex-grow: 1;
+    overflow-y: auto;
+  }
+  .search-value {
+    color: #009a61;
+  }
+}

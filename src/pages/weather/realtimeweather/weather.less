@@ -1,0 +1,295 @@
+.weather-box {
+  .ant-calendar-picker-input{
+    border:none;
+    .ant-calendar-range-picker-input{
+      height: 30px!important;
+    }
+  }
+  .ant-row {
+    .ant-col-6 {
+      .number-card {
+        cursor: pointer;
+        text-align: center;
+        border-right: 1px solid #ccc;
+        p {
+          margin: 0
+        }
+        .icon-warp {
+          font-size: 24px;
+          padding-top: 15px;
+          color: #8583cc;
+        }
+
+        .content-analyze {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 10px;
+
+          .item {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .title-analyze {
+              font-size: 18px;
+              margin-bottom: 10px;
+            }
+            .unit {
+              font-size: 12px;
+              padding-left: 2px;
+              color: #999;
+            }
+            .number {
+              font-size: 22px;
+              color: #9cd0a0;
+            }
+          }
+        }
+      }
+      &:last-child {
+        .number-card {
+          border: none;
+        }
+      }
+    }
+  }
+
+  .temperature-nav{
+    width: 100%;
+    padding: 20px 20px 0;
+    background: #fff;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px solid #eee;
+    .title{
+      width: 150px;
+      float: left;
+    }
+    ul {
+      float: left;
+      height: 40px;
+      width: 600px;
+      display: flex;
+      li {
+        flex: 1;
+        height: 40px;
+        line-height: 40px;
+
+        text-align: center;
+        color: #666;
+      }
+      .active-nav {
+        color: #6699cc;
+        border-bottom: 1px solid #1890ff;
+      }
+    }
+  }
+
+
+  .analyze-chart {
+    width: 100%;
+    margin:0;
+    border: none;
+    .ant-card-body{
+      padding: 20px 20px;
+    }
+    .table-header-other {
+      width: 100%;
+      height: 80px;
+      border-bottom: 1px solid #ddd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+      div:nth-child(1) {
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        margin: 0;
+        i {
+          font-size: 20px;
+          color: #8583cc;
+        }
+        span {
+          font-size: 20px;
+          color: #8786ce;
+          margin-left: 5px;
+          min-width: 90px;
+        }
+        .tempreture-ul {
+          margin-left: 50px;
+          height: 80px;
+          width: 74%;
+          display: flex;
+          li {
+            //flex: 1;
+            height: 80px;
+            line-height: 80px;
+            text-align: center;
+            color: #999;
+            width: 100px;
+            margin:0 10px;
+            text-align: center;
+          }
+          .active-nav {
+            color: #9cd0a0;
+            border-bottom: 2px solid #9cd0a0;
+          }
+        }
+      }
+      .nav-con {
+        margin: 0;
+        display: flex;
+        .ant-btn {
+          height: 40px;
+          background: #9cd0a0;
+          color: #fff;
+          border: none;
+        }
+        .ant-btn:hover{
+          background: #6bab95!important;
+          color: #fff!important;
+        }
+        .gray {
+          background: #fff!important;
+          color:#000!important;
+        }
+      }
+
+    }
+    .weather-con{
+      padding: 20px;
+      .weather-layout{
+        background: url('https://img.alicdn.com/tfs/TB1B3REwoOWBKNjSZKzXXXfWFXa-256-261.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 8px;
+        height: 190px;
+        padding:30px;
+        color: #fff;
+        .weather-icon{
+          font-size: 50px;
+          line-height: 50px;
+          height: 50px;
+          text-align: right;
+          .iconfont{
+            font-size: 50px;
+          }
+        }
+        .weather-new{
+          margin-top: 20px;
+          font-size: 30px;
+          span{
+            font-size: 18px;
+          }
+        }
+        .weather-range{
+          color: #fff;
+          font-size: 12px;
+        }
+      }
+      .weather-wind{
+        background: url("https://img.alicdn.com/tfs/TB1tFxowmYTBKNjSZKbXXXJ8pXa-256-261.png") no-repeat;
+        background-size: cover;
+      }
+      .weather-rain{
+        background: url("https://img.alicdn.com/tfs/TB1KbgqwbZnBKNjSZFhXXc.oXXa-256-261.png") no-repeat;
+        background-size: cover;
+      }
+      .weather-wet{
+        background: url("https://img.alicdn.com/tfs/TB1nZ3qv7ZmBKNjSZPiXXXFNVXa-256-261.png") no-repeat;
+        background-size: cover;
+      }
+      .name{
+        padding:15px;
+        text-align: center;
+        font-size: 16px;
+        color: #666;
+      }
+      .box-tip{
+        color: #ef3c4b;
+        padding: 15px 0;
+        font-size: 14px;
+      }
+    }
+    .btn-common {
+      width: 120px;
+      margin: 0 10px;
+      background-color: #9cd0a0!important;
+      color:#fff!important;
+    }
+    .btn-common:first-child{
+      margin-right: 0;
+    }
+  }
+  .analyze-chart-two {
+    background-color: #F8FAF9;
+    .ant-card-body{
+      overflow-x: scroll;
+    }
+  }
+}
+.weather{
+  .weather-search {
+    width: 40%;
+    padding: 0px!important;
+    font-size: 12px;
+  }
+  .farming-search{
+    .title-other{
+      .title-search{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .search-layout{
+          width: 100%;
+        }
+      }
+      .base-select{
+        width: 50%;
+      }
+      .time{
+        width: 60%;
+        min-width: 262px;
+        text-align: right;
+        padding-right: 15px;
+      }
+    }
+  }
+  .weatherDay{
+    padding: 20px;
+    .gutter-day{
+      .ant-row{
+        width: 1200px;
+        display: flex;
+        .gutter-row{
+          width: 70px;
+          border-right: 1px solid #eee;
+          display: flex;
+          flex: 1;
+          flex-direction: column;
+          align-items: center;
+          justify-items: center;
+          .gutter-box{
+            margin:10px 0;
+          }
+          .weather-ico{
+            font-size: 30px;
+          }
+          .weather-normal{
+            color: #8481ce;
+          }
+          .weather-night{
+            color: #86b589;
+          }
+          .weather-wind{
+            color: orange;
+          }
+        }
+      }
+    }
+  }
+}

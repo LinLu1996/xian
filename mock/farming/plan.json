@@ -1,0 +1,108 @@
+{
+  "success": true,
+  "msg": "success",
+  "data": {
+    "planList": [
+      {
+        "index": 0,
+        "id": "wallage",
+        "name": "甜瓜",
+        "child": [
+          {
+            "id": 1,
+            "name": "甜瓜种植方案1"
+          },
+          {
+            "id": 2,
+            "name": "甜瓜种植方案2"
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "id": "wallage1",
+        "name": "苦瓜",
+        "child": [
+          {
+            "id": 1,
+            "name": "苦瓜种植方案11"
+          },
+          {
+            "id": 2,
+            "name": "苦瓜种植方案12"
+          }
+        ]
+      },
+      {
+        "index": 0,
+        "id": "wallage2",
+        "name": "苹果",
+        "child": [
+          {
+            "id": 1,
+            "name": "苹果种植方案21"
+          },
+          {
+            "id": 2,
+            "name": "苹果种植方案22"
+          }
+        ]
+      }
+    ],
+    "planListChid":[],
+    "landList": [
+      {
+        "id": 1,
+        "name": "地块1"
+      },
+      {
+        "id": 2,
+        "name": "地块2"
+      },
+      {
+        "id": 3,
+        "name": "地块3"
+      }
+    ],
+    "baseLandList": [
+      {
+        "id": 1,
+        "name": "基地1"
+      },
+      {
+        "id": 2,
+        "name": "基地2"
+      },
+      {
+        "id": 3,
+        "name": "基地3"
+      }
+    ],
+    "tranferList": [
+      {
+        "key": 0,
+        "title": "大棚1",
+        "id": 3,
+        "chosen": false
+      },
+      {
+        "key": 1,
+        "title": "大棚2",
+        "id": 3,
+        "chosen": false
+      },
+      {
+        "key": 2,
+        "title": "大棚3",
+        "id": 3,
+        "chosen": false
+      },
+      {
+        "key": 3,
+        "title": "大棚4",
+        "id": 3,
+        "chosen": false
+      }
+    ]
+  }
+}

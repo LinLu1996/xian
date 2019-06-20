@@ -1,0 +1,37 @@
+{
+  "success": true,
+  "msg": "success",
+  "total":2,
+  "data": [
+    {
+      "id": "id11",
+      "type": "政府扶贫投入（元）",
+      "Jan": 11,
+      "Feb": 22,
+      "Mar": 33,
+      "Apr": 44,
+      "May": 55,
+      "Jun": 66,
+      "Jul": 77,
+      "Aug": 88,
+      "Sep": 99,
+      "Oct": 100,
+      "Nov": 67,
+      "Dec": 120
+  }, {
+      "id": "id12",
+      "type": "企业扶贫支出（元）",
+      "Jan": 15,
+      "Feb": 52,
+      "Mar": 73,
+      "Apr": 45,
+      "May": 58,
+      "Jun": 63,
+      "Jul": 75,
+      "Aug": 81,
+      "Sep": 59,
+      "Oct": 90,
+      "Nov": 30,
+      "Dec": 44
+  }]
+}

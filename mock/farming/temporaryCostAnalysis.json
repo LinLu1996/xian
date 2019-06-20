@@ -1,0 +1,119 @@
+{
+  "success": true,
+  "msg": "success",
+  "total":10,
+  "data": [
+    {
+      "id": "id11",
+      "ag_code": "PP1333",
+      "plan_time": "2018-08-1",
+      "varieties": "甜瓜",
+      "task": "打药",
+      "plantingBase": "海南基地",
+      "plantingLand": "6号",
+      "type": "植保",
+      "createName": "李四",
+      "workerNumber": "23",
+      "actualDosage": "12323",
+      "agriculturalCost": "13213",
+      "laborLength": "2132",
+      "laborTotalCost": "1232",
+      "dataList": [{
+        "temporaryName": "aaa",
+        "workTime": "12",
+        "wages": 122
+      },{
+        "temporaryName": "bbb",
+        "workTime": "4",
+        "wages": 80
+      },{
+        "temporaryName": "ccc",
+        "workTime": "20",
+        "wages": 200
+      },{
+        "temporaryName": "ddd",
+        "workTime": "8",
+        "wages": 160
+      }]
+  }, {
+      "id": "id12",
+      "ag_code": "PP1333",
+      "plan_time": "2018-08-1",
+      "varieties": "甜瓜",
+      "task": "打药",
+      "plantingBase": "海南基地",
+      "plantingLand": "6号",
+      "type": "植保",
+      "createName": "李四",
+      "workerNumber": "23",
+      "actualDosage": "12323",
+      "agriculturalCost": "13213",
+      "laborLength": "2132",
+      "laborTotalCost": "1232",
+      "dataList": [{
+        "temporaryName": "bbb",
+        "workTime": "10",
+        "wages": 100
+      }]
+  }, {
+    "id": "id3",
+      "ag_code": "PP1333",
+      "plan_time": "2018-08-1",
+      "varieties": "甜瓜",
+      "task": "打药",
+      "plantingBase": "海南基地",
+      "plantingLand": "6号",
+      "type": "植保",
+      "createName": "李四",
+      "workerNumber": "23",
+      "actualDosage": "12323",
+      "agriculturalCost": "13213",
+      "laborLength": "2132",
+      "laborTotalCost": "1232",
+      "dataList": [{
+        "temporaryName": "ccc",
+        "workTime": "11",
+        "wages": 121
+      }]
+  }, {
+    "id": "id4",
+      "ag_code": "PP1333",
+      "plan_time": "2018-08-1",
+      "varieties": "甜瓜",
+      "task": "打药",
+      "plantingBase": "海南基地",
+      "plantingLand": "6号",
+      "type": "植保",
+      "createName": "李四",
+      "workerNumber": "23",
+      "actualDosage": "12323",
+      "agriculturalCost": "13213",
+      "laborLength": "2132",
+      "laborTotalCost": "1232",
+      "dataList": [{
+        "temporaryName": "aaa",
+        "workTime": "12",
+        "wages": 122
+      }]
+  }, {
+    "id": "id5",
+      "ag_code": "PP1333",
+      "plan_time": "2018-08-1",
+      "varieties": "甜瓜",
+      "task": "打药",
+      "plantingBase": "海南基地",
+      "plantingLand": "6号",
+      "type": "植保",
+      "createName": "李四",
+      "workerNumber": "23",
+      "actualDosage": "12323",
+      "agriculturalCost": "13213",
+      "laborLength": "2132",
+      "laborTotalCost": "1232",
+      "dataList": [{
+        "temporaryName": "aaa",
+        "workTime": "12",
+        "wages": 122
+      }]
+  }]
+}

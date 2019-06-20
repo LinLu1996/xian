@@ -1,0 +1,84 @@
+{
+  "success": true,
+  "data": {
+    "headerStyle": "",
+    "slideStyle": "",
+    "logoUrl": "",
+    "menuList": [ {
+      "icon": "",
+      "id": 10001,
+      "leaf": false,
+      "parentId": -1,
+      "name": "农事管理",
+      "url": "/farming_admin/base",
+      "children": [{
+        "icon": "",
+        "id": 100011,
+        "leaf": true,
+        "parentId": 10001,
+        "name": "农事总览",
+        "url": "/farming_admin/base"
+      }]
+    }, {
+      "icon": "",
+      "id": 10002,
+      "leaf": false,
+      "parentId": -1,
+      "name": "后台管理",
+      "url": "/admin/menu_admin",
+      "children": [{
+        "icon": "",
+        "id": 100021,
+        "leaf": true,
+        "parentId": 10002,
+        "name": "菜单管理",
+        "url": "/admin/menu_admin"
+      }, {
+        "icon": "",
+        "id": 100022,
+        "leaf": false,
+        "parentId": 10002,
+        "name": "test2",
+        "url": "",
+        "children": [{
+          "icon": "",
+          "id": 1000221,
+          "leaf": true,
+          "parentId": 100022,
+          "name": "test3",
+          "url": "/admin/menu_admin"
+        }]
+      }]
+    },{
+      "icon": "",
+      "id": 10003,
+      "leaf": false,
+      "parentId": -1,
+      "name": "系统管理",
+      "url": "/System",
+      "children": [{
+        "icon": "",
+        "id": 100031,
+        "leaf": true,
+        "parentId": 10003,
+        "name": "菜单管理",
+        "url": "/admin/menu_admin"
+      }, {
+        "icon": "",
+        "id": 100032,
+        "leaf": false,
+        "parentId": 10003,
+        "name": "test2",
+        "url": "",
+        "children": [{
+          "icon": "",
+          "id": 1000321,
+          "leaf": true,
+          "parentId": 100032,
+          "name": "test3",
+          "url": "/admin/menu_admin"
+        }]
+      }]
+    }]
+  }
+}

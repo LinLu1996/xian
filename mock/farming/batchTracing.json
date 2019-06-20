@@ -1,0 +1,192 @@
+{
+  "success": true,
+  "msg": "success",
+  "total":10,
+  "data": [
+    {"id":"1",
+      "qr-code": "有机肥",
+      "batch": 1100,
+      "crops": "公斤",
+      "base": 330,
+      "land": 330,
+      "date": 330,
+      "planCode": 330,
+      "quantity": 330,
+      "unit": 330,
+      "dataList":[
+        {
+          "id": 1,
+          "qr-code": "2018-08-13",
+          "batch": "PP1333",
+          "grade": "施肥",
+          "quantity": 111,
+          "unit": "公斤"
+        },
+        {
+          "id": 2,
+          "qr-code": "2018-08-13",
+          "batch": "PP1333",
+          "grade": "施肥",
+          "quantity": 111,
+          "unit":"公斤"
+        },
+        {
+          "id": 3,
+          "qr-code": "2018-08-13",
+          "batch": "PP1333",
+          "grade": "施肥",
+          "quantity": 111,
+          "unit": "公斤"
+        }
+      ]
+    },
+    {"id":"2",
+      "qr-code": "有机肥",
+      "batch": 1100,
+      "crops": "公斤",
+      "base": 330,
+      "land": 330,
+      "date": 330,
+      "planCode": 330,
+      "quantity": 330,
+      "unit": 330,
+      "dataList":[
+        {
+          "id": 4,
+          "qr-code": "2018-08-13",
+          "batch": "PP1333",
+          "grade": "施肥",
+          "quantity": 222,
+          "unit": "公斤"
+        },
+        {
+          "id": 5,
+          "qr-code": "2018-08-13",
+          "batch": "PP1333",
+          "grade": "施肥",
+          "quantity": 222,
+          "unit":"公斤"
+        },
+        {
+          "id": 6,
+          "qr-code": "2018-08-13",
+          "batch": "PP1333",
+          "grade": "施肥",
+          "quantity": 222,
+          "unit": "公斤"
+        }
+      ]
+    },
+    {"id":"3",
+      "qr-code": "有机肥",
+      "batch": 1100,
+      "crops": "公斤",
+      "base": 330,
+      "land": 330,
+      "date": 330,
+      "planCode": 330,
+      "quantity": 330,
+      "unit": 330,
+      "dataList":[
+        {
+          "id": 7,
+          "qr-code": "2018-08-13",
+          "batch": "PP1333",
+          "grade": "施肥",
+          "quantity": 333,
+          "unit": "公斤"
+        },
+        {
+          "id": 8,
+          "qr-code": "2018-08-13",
+          "batch": "PP1333",
+          "grade": "施肥",
+          "quantity": 333,
+          "unit":"公斤"
+        },
+        {
+          "id": 9,
+          "qr-code": "2018-08-13",
+          "batch": "PP1333",
+          "grade": "施肥",
+          "quantity": 333,
+          "unit": "公斤"
+        }
+      ]
+    },
+    {"id":"4",
+      "qr-code": "有机肥",
+      "batch": 1100,
+      "crops": "公斤",
+      "base": 330,
+      "land": 330,
+      "date": 330,
+      "planCode": 330,
+      "quantity": 330,
+      "unit": 330,
+      "dataList":[
+        {
+          "id": 10,
+          "qr-code": "2018-08-13",
+          "batch": "PP1333",
+          "grade": "施肥",
+          "quantity": 444,
+          "unit": "公斤"
+        },
+        {
+          "id": 11,
+          "qr-code": "2018-08-13",
+          "batch": "PP1333",
+          "grade": "施肥",
+          "quantity": 444,
+          "unit":"公斤"
+        },
+        {
+          "id": 12,
+          "qr-code": "2018-08-13",
+          "batch": "PP1333",
+          "grade": "施肥",
+          "quantity": 444,
+          "unit": "公斤"
+        }
+      ]
+    },
+    {"id":"5",
+      "qr-code": "有机肥",
+      "batch": 1100,
+      "crops": "公斤",
+      "base": 330,
+      "land": 330,
+      "date": 330,
+      "planCode": 330,
+      "quantity": 330,
+      "unit": 330,
+      "dataList":[
+        {
+          "id": 13,
+          "qr-code": "2018-08-13",
+          "batch": "PP1333",
+          "grade": "施肥",
+          "quantity": 555,
+          "unit": "公斤"
+        },
+        {
+          "id": 14,
+          "qr-code": "2018-08-13",
+          "batch": "PP1333",
+          "grade": "施肥",
+          "quantity": 555,
+          "unit":"公斤"
+        },
+        {
+          "id": 15,
+          "qr-code": "2018-08-13",
+          "batch": "PP1333",
+          "grade": "施肥",
+          "quantity": 555,
+          "unit": "公斤"
+        }
+      ]
+    }
+    ]
+}

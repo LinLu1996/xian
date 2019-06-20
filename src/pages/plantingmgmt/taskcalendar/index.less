@@ -1,0 +1,209 @@
+//万年历
+.taskcalendar-box{
+  .content{
+    min-height: calc(100% - 166px);
+  }
+}
+.task-calendar-layout{
+  background: #f5f9fa;
+  display: flex;
+  .task-calendar-right{
+    padding: 0 30px;
+    flex: 5;
+    overflow-y: auto;
+    .calendar-header{
+      padding: 10px 0;
+      margin:10px 15px;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #d9d9d9;
+      .left-btn{
+        flex: 1;
+      }
+      .calendar-header-center{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex: 3;
+        line-height: 30px;
+        .calendar-value{
+          font-size: 18px;
+        }
+        a {
+          margin: 0 20px;
+          width: 36px;
+          height: 36px;
+          border: 1px solid #cccccc;
+          display: inline-block;
+          text-align: center;
+          line-height: 34px;
+          font-size: 18px;
+          border-radius: 50%;
+          color: #9dd0a1;
+        }
+        a:hover {
+          background: #9cd0a0;
+          border: 0;
+          color: #fff;
+        }
+        .left-jiantou{
+          transform: rotate(180deg);
+        }
+      }
+      .right-btn{
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+      }
+      .ant-btn{
+        height: 40px;
+        width: 120px;
+        border: none;
+        letter-spacing: 2px;
+        font-size: 14px;
+        color: #fff;
+        background-color: #9cd0a0;
+      }
+      button:hover{
+        background: #6bab95;
+      }
+    }
+    .ant-fullcalendar-value{
+      display: flex;
+      &:active{
+        color: rgba(0, 0, 0, 0.65);
+      }
+      .today{
+        flex: 1;
+        text-align: left;
+      }
+      .weather{
+        flex: 1;
+        position: relative;
+        .weather-icon-sm{
+          font-size: 16px;
+        }
+        &:hover{
+          .weather-layout{
+            display: block;
+            z-index: 9999;
+          }
+        }
+        .weather-layout{
+          display: none;
+          position: absolute;
+          z-index: 999;
+          top: 25px;
+          right: -58px;
+          width: 90px;
+          background: #fff;
+          padding:8px 10px;
+          border-radius: 4px;
+          text-align:left;
+          box-shadow: 0 0 2px #ddd;
+          &:before{
+            content: "";
+            position: absolute;
+            top: -5px;
+            transform: rotate(45deg);
+            right: 50%;
+            z-index: 5;
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            background: #fff;
+          }
+          .weather-icon{
+            font-size: 25px;
+            text-align: right;
+          }
+          .weather-new{
+            font-size: 25px;
+            span{
+              font-size: 15px;
+            }
+          }
+          .weather-range{
+            color: #333;
+            float: right;
+          }
+        }
+      }
+      // 阳光
+      .weather-sun{
+        color: #edc878;
+      }
+    }
+    .link-edit{
+      display: none;
+      height: 20px;
+      line-height: 20px;
+      font-size: 12px;
+    }
+    .full-calendar-active{
+      z-index: 5;
+    }
+    .full-calendar-active:hover{
+      position: relative;
+      transform-origin: center;
+      z-index: 5;
+      transform: scale(1.2,1.2);
+      box-shadow: 0 0 10px #999;
+      cursor: pointer;
+      background: #fff;
+      .weather-layout{
+        z-index: 100;
+      }
+      .link-edit{
+        display: block;
+      }
+    }
+    .ant-fullcalendar td{
+      border: 1px solid #d9d9d9;
+    }
+    .ant-fullcalendar td:first-child{
+      border-left: 1px solid transparent;
+    }
+    .ant-fullcalendar td:last-child{
+      border-right: 1px solid transparent;
+    }
+    .ant-fullcalendar .ant-fullcalendar-today {
+     border: 1px solid #9cd0a0;
+      background-color: #9cd0a0;
+    }
+  }
+  .ant-fullcalendar-header{
+    display: none;
+  }
+  .ant-fullcalendar-fullscreen .ant-fullcalendar-month-panel-selected-cell .ant-fullcalendar-month,
+  .ant-fullcalendar-fullscreen .ant-fullcalendar-selected-day .ant-fullcalendar-date{
+    background: transparent;
+  }
+  .ant-fullcalendar-fullscreen .ant-fullcalendar-month-panel-selected-cell .ant-fullcalendar-value,
+  .ant-fullcalendar-fullscreen .ant-fullcalendar-selected-day .ant-fullcalendar-value{
+    color: rgba(0, 0, 0, 0.65);
+  }
+  .ant-fullcalendar{
+    border-top: transparent;
+  }
+  .ant-fullcalendar-selected-day .ant-fullcalendar-value,
+  .ant-fullcalendar-month-panel-selected-cell .ant-fullcalendar-value{
+    color: rgba(0, 0, 0, 0.65);
+    background: transparent;
+  }
+  .ant-fullcalendar-fullscreen .ant-fullcalendar-month,
+  .ant-fullcalendar-fullscreen .ant-fullcalendar-date{
+    border: transparent;
+  }
+  .ant-fullcalendar-table{
+    .ant-fullcalendar-column-header .ant-fullcalendar-column-header-inner{
+      padding: 10px;
+      text-align: center;
+      font-size: 16px;
+      &:before{
+        content: "星期";
+      }
+    }
+  }
+}

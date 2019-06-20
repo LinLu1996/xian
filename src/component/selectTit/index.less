@@ -1,0 +1,40 @@
+.selectbox {
+    width:100%;
+    padding-left:15px;
+    display: flex;
+    border-radius: 5px;
+    flex-wrap: wrap;
+    .select {
+        width:33.3%;
+        height:45px;
+        display: flex;
+        align-items: center;
+        background: #ffffff;
+        margin-top:10px;
+        .label {
+            width:60px;
+            text-align: center;
+        }
+        .ant-select {
+            width:100%!important;
+            .ant-select-selection {
+                border:none;
+                outline: none;
+                border-color:#fff!important;
+                outline: 0!important;
+                -webkit-box-shadow: 0 0 0 0px rgba(255, 255, 255, 255)!important; 
+            }
+        }
+        &::after {
+            content: '';
+            height:20px;
+            border:.5px solid #ccc;
+        }
+        &:nth-child(3)::after{
+            display: none;
+        }
+        &:last-child::after{
+            display: none;
+        }
+    }
+}

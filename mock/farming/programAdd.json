@@ -1,0 +1,8 @@
+{
+  "success": true,
+  "msg": "success",
+  "total":10,
+  "data": {
+    "rows":[{"name":"部门","category":"一级部门"},{"name":"部门","category":"一级部门"}]
+  }
+}

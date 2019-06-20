@@ -1,0 +1,106 @@
+.awaitExamine {
+  color: #9cd0a0;
+}
+
+.noExamine {
+  color: red;
+}
+
+tr:hover {
+  .awaitExamine {
+    color: #fff;
+  }
+}
+
+.right-search-col{
+  .right-search{
+    display: inline-block;
+    .search-title{
+      margin: 0 10px;
+    }
+    input{
+      width: 200px;
+    }
+  }
+  .right-data-range {
+    display: inline-block;
+    line-height: 46px;
+    margin-right: 10px;
+    .data-label {
+      margin: 0 10px;
+    }
+    .ant-calendar-picker{
+      width: 300px;
+    }
+  }
+}
+
+.farming-admin-modal-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.65);
+  height: 100%;
+  z-index: 1000;
+  .farming-admin-modal-examine {
+    position: relative;
+    background-color: #fff;
+    border: 0;
+    border-radius: 4px;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin: 0 auto;
+    padding: 0;
+    top: 100px;
+    .ant-modal-header {
+      padding: 10px 24px;
+      .title {
+        color: #9cd0a0;
+        line-height: 30px;
+      }
+      img{
+        width: 100px;
+        margin-left: 5px;
+      }
+      .ant-modal-close {
+        width: 50px;
+        height: 50px;
+        .anticon-close {
+          margin: 18px;
+        }
+      }
+    }
+    .ant-modal-footer {
+      .ant-btn {
+        min-width: auto;
+        height: 32px;
+        background: white;
+      }
+    }
+    .ant-modal-body{
+      table{
+        tr{
+          th{
+            font-size: 14px;
+            text-align: center !important;
+            font-weight: bold;
+          }
+        }
+        tr{
+          td,th{
+            height: 53.6px;
+            padding: 11px 6px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+
+

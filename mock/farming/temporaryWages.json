@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "msg": "success",
+  "total":5,
+  "data": [
+    {
+    "id": "id11",
+    "farmingType": 1,
+    "wages": "50"
+  }, {
+    "id": "id12",
+      "farmingType": 2,
+      "wages": "80"
+  }, {
+    "id": "id3",
+      "farmingType": 3,
+      "wages": "100"
+  }, {
+    "id": "id4",
+      "farmingType": 4,
+      "wages": "80"
+  }, {
+    "id": "id5",
+      "farmingType": 5,
+      "wages": "100"
+  }]
+}

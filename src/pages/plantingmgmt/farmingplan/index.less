@@ -1,0 +1,153 @@
+//创建农事计划页面
+.farming-plan-box {
+    .content {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(230, 231, 235);
+        .ant-card{
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            border: none;
+            border-radius: 4px;
+            overflow: hidden;
+            padding-left: 5px;
+            .planDetail {
+                height: auto;
+                overflow: hidden;
+                &:last-child{
+                    border-top: 1px solid #ccc;
+                }
+                li {
+                    width: 33.33%;
+                    display: block;
+                    float: left;
+                    margin:10px 0;
+                    line-height: 32px;
+                    .content-button{
+                        margin-left: 10px;
+                        background: #9cd0a0;
+                        color: #fff;
+                        border: none;
+                        letter-spacing: 2px;
+                        font-size: 14px;
+                        height: 40px;
+                    }
+                    .content-button:hover {
+                        background: #6bab95;
+                    }
+                }
+            }
+        }
+        .farm-plan-con {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            padding: 50px 20px;
+            background: #fff;
+            .ant-form-item {
+                margin: 10px;
+            }
+            .ant-form-item-label {
+                width: 120px;
+            }
+            .ant-select, .ant-calendar-picker {
+                width: 300px;
+
+                .ant-select-selection--single {
+                    height: 40px;
+                    line-height: 40px;
+                    .ant-select-selection__rendered {
+                        height: 40px;
+                        line-height: 40px;
+                    }
+                }
+                .ant-calendar-picker-input {
+                    height: 40px;
+                    line-height: 40px;
+                    border:1px solid #d9d9d9;
+                }
+
+            }
+            .plan-transfer {
+                display: flex;
+                padding: 20px 0;
+                .ant-transfer-operation{
+                    button{
+                        min-width: 124px !important;
+                    }
+                }
+                h3 {
+                    display: inline-block;
+                    width: 120px;
+                    text-align: right;
+                    margin-left: 20px;
+                }
+            }
+        }
+        .content-wrap{
+            border-radius: 4px;
+            overflow: hidden;
+        }
+    }
+}
+.special-row{
+    border-bottom: 1px solid #ff0000;
+    text-decoration: line-through;
+    td{
+        &:first-child{
+            border-left: 2px solid #ff0000;
+        }
+    }
+}
+.plant-date-li{
+    width: 40% !important;
+}
+.left-position{
+    text-align: left;
+}
+.plan-detail-button{
+    text-align: left;
+    margin: 20px 0 0 0 !important;
+}
+.plan-detail-second-modal{
+    .ant-modal-body{
+        margin-bottom: 0;
+        .ant-form{
+            margin-left: 15px;
+            .ant-row{
+                height: 36px !important;
+                .ant-form-item-label{
+                    width: 25% !important;
+                    min-width: 100px;
+                    height: 100%;
+                    line-height: 36px;
+                }
+                .ant-form-item-control-wrapper{
+                    width: 75% !important;
+                    .ant-form-item-control{
+                        line-height: 36px !important;
+                        .ant-input-number{
+                            height: 35px !important;
+                        }
+                        .ant-select-selection{
+                            height: 35px !important;
+                            .ant-select-selection__rendered{
+                                line-height: 35px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+

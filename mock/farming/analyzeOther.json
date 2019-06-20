@@ -1,0 +1,99 @@
+{
+  "success": true,
+  "msg": "success",
+  "data": {
+    "chartData": {
+       "realList": [20.0, 4.9, 17.0, 23.2, 25.6, 6.7, 15.6, 162.2, 72.6, 24.0, 6.4, 38.3],
+       "planList": [20.6, 15.9, 9.0, 6.4, 8.7, 70.7, 75.6, 82.2, 48.7, 18.8, 66.0, 27.3]
+    },
+    "tableData": {
+      "total": 6,
+      "list": [
+        {
+          "key": 0,
+          "id": 0,
+          "month": 6,
+          "address": "浅阳",
+          "kind": "甜瓜",
+          "land": "C1",
+          "area": "22",
+          "amountplan": "33",
+          "amountDown": "22",
+          "timesPlan": "2",
+          "timesDown": "10"
+        },
+        {
+          "key": 1,
+          "id": 1,
+          "month": 4,
+          "address": "策划",
+          "kind": "西瓜",
+          "land": "C2",
+          "area": "22",
+          "amountplan": "33",
+          "amountDown": "22",
+          "timesPlan": "2",
+          "timesDown": "10"
+        },
+        {
+          "key": 3,
+          "id": 3,
+          "month": 6,
+          "address": "浅阳",
+          "kind": "甜瓜",
+          "land": "C1",
+          "area": "22",
+          "amountplan": "33",
+          "amountDown": "22",
+          "timesPlan": "2",
+          "timesDown": "10"
+        },
+        {
+          "key": 4,
+          "id": 4,
+          "month": 4,
+          "address": "策划",
+          "kind": "西瓜",
+          "land": "C2",
+          "area": "22",
+          "amountplan": "33",
+          "amountDown": "22",
+          "timesPlan": "2",
+          "timesDown": "10"
+        },
+        {
+          "key": 5,
+          "id": 5,
+          "month": 6,
+          "address": "浅阳",
+          "kind": "甜瓜",
+          "land": "C1",
+          "area": "22",
+          "amountplan": "33",
+          "amountDown": "22",
+          "timesPlan": "2",
+          "timesDown": "10"
+        },
+        {
+          "key": 6,
+          "id": 6,
+          "month": 4,
+          "address": "策划",
+          "kind": "西瓜",
+          "land": "C2",
+          "area": "22",
+          "amountplan": "33",
+          "amountDown": "22",
+          "timesPlan": "2",
+          "timesDown": "10"
+        }
+      ]
+    },
+    "waterAmount":10,
+    "waterTimes":20,
+    "fertilizationAmount": 50,
+    "fertilizationTimes": 60,
+    "plantProtection": 10,
+    "gardening": 30
+  }
+}
